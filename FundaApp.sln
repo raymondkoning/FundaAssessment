@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FundaApp", "FundaApp\FundaApp.csproj", "{CC696A57-17EC-4972-B3B9-89DF4E182220}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FundaAppTests", "FundaAppTests\FundaAppTests.csproj", "{5C633E16-E2E5-4A34-B62A-8BF39BB284D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC696A57-17EC-4972-B3B9-89DF4E182220}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC696A57-17EC-4972-B3B9-89DF4E182220}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC696A57-17EC-4972-B3B9-89DF4E182220}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC696A57-17EC-4972-B3B9-89DF4E182220}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C633E16-E2E5-4A34-B62A-8BF39BB284D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C633E16-E2E5-4A34-B62A-8BF39BB284D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C633E16-E2E5-4A34-B62A-8BF39BB284D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C633E16-E2E5-4A34-B62A-8BF39BB284D1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A6441C0-E699-4753-BFC4-8459C0F5ED46}
+	EndGlobalSection
+EndGlobal

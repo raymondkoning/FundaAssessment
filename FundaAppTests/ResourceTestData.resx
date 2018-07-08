@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="JsonResponseNoPagingClass" xml:space="preserve">
+    <value>{"Raymond":0,"EmailNotConfirmed":false,"ValidationFailed":false,"ValidationReport":null,"Website":0,"Metadata":{"ObjectType":"Koopwoningen","Omschrijving":"Koopwoningen &gt; Amsterdam | Tuin","Titel":"Huizen te koop in Amsterdam"},"Objects":[{"AangebodenSindsTekst":"Vandaag","AanmeldDatum":"\/Date(1262300400000+0100)\/","AantalBeschikbaar":null,"AantalKamers":5,"AantalKavels":null,"Aanvaarding":"InOverleg","Adres":"Vegastraat 219","Afstand":0,"BronCode":"NVM","ChildrenObjects":[],"DatumAanvaarding":null,"DatumOndertekeningAkte":null,"Foto":"http:\/\/cloud.funda.nl\/valentina_media\/097\/655\/786_klein.jpg","FotoLarge":"http:\/\/cloud.funda.nl\/valentina_media\/097\/655\/786_groot.jpg","FotoLargest":"http:\/\/cloud.funda.nl\/valentina_media\/097\/655\/786_grotere.jpg","FotoMedium":"http:\/\/cloud.funda.nl\/valentina_media\/097\/655\/786_middel.jpg","FotoSecure":"http:\/\/cloud.funda.nl\/valentina_media\/097\/655\/786_klein.jpg","GewijzigdDatum":null,"GlobalId":4305297,"GroupByObjectType":"0a2bbf27-d21b-4e60-9985-4331321b9c06","Heeft360GradenFoto":true,"HeeftBrochure":false,"HeeftOpenhuizenTopper":false,"HeeftOverbruggingsgrarantie":false,"HeeftPlattegrond":true,"HeeftTophuis":false,"HeeftVeiling":false,"HeeftVideo":true,"HuurPrijsTot":null,"Huurprijs":null,"HuurprijsFormaat":null,"Id":"0a2bbf27-d21b-4e60-9985-4331321b9c06","InUnitsVanaf":null,"IndProjectObjectType":false,"IndTransactieMakelaarTonen":null,"IsSearchable":true,"IsVerhuurd":false,"IsVerkocht":false,"IsVerkochtOfVerhuurd":false,"Koopprijs":325000,"KoopprijsFormaat":"&lt;[KoopPrijs]&gt; &lt;{kosten koper|kort}&gt;","KoopprijsTot":325000,"MakelaarId":17358,"MakelaarNaam":"11 Makelaars","MobileURL":"http:\/\/m.funda.nl\/obj.aspx?goi=4305297","Note":null,"OpenHuis":[],"Oppervlakte":0,"Perceeloppervlakte":141,"Postcode":"1033HT","Prijs":{"GeenExtraKosten":false,"HuurAbbreviation":"","Huurprijs":null,"HuurprijsOpAanvraag":"","HuurprijsTot":null,"KoopAbbreviation":"k.k.","Koopprijs":325000,"KoopprijsOpAanvraag":"","KoopprijsTot":325000,"OriginelePrijs":null,"VeilingText":""},"PrijsGeformatteerdHtml":"&lt;span class=\"price-wrapper\"&gt;&lt;span class=\"price\"&gt;&amp;euro;&amp;nbsp;325.000&lt;\/span&gt; &lt;abbr class=\"price-ext\"&gt;k.k.&lt;\/abbr&gt;&lt;\/span&gt;","PrijsGeformatteerdTextHuur":"&lt;span class=\"price-wrapper\"&gt;&lt;span class=\"price\"&gt;&amp;euro;&amp;nbsp;325.000&lt;\/span&gt; &lt;abbr class=\"price-ext\"&gt;k.k.&lt;\/abbr&gt;&lt;\/span&gt;","PrijsGeformatteerdTextKoop":"&lt;span class=\"price-wrapper\"&gt;&lt;span class=\"price\"&gt;&amp;euro;&amp;nbsp;325.000&lt;\/span&gt; &lt;abbr class=\"price-ext\"&gt;k.k.&lt;\/abbr&gt;&lt;\/span&gt;","Producten":["Video","Plattegrond","360-fotos"],"Project":{"AantalKamersTotEnMet":null,"AantalKamersVan":null,"AantalKavels":null,"Adres":null,"FriendlyUrl":null,"GewijzigdDatum":null,"GlobalId":null,"HoofdFoto":"\/img\/thumbs\/thumb-geen-foto.gif","IndIpix":false,"IndPDF":false,"IndPlattegrond":false,"IndTop":false,"IndVideo":false,"InternalId":"00000000-0000-0000-0000-000000000000","MaxWoonoppervlakte":null,"MinWoonoppervlakte":null,"Naam":null,"Omschrijving":null,"OpenHuizen":[],"Plaats":null,"Prijs":null,"PrijsGeformatteerd":null,"PublicatieDatum":null,"Type":0,"Woningtypen":null},"ProjectNaam":null,"PromoLabel":{"HasPromotionLabel":false,"PromotionPhotos":[],"PromotionPhotosSecure":null,"PromotionType":0,"RibbonColor":0,"RibbonText":null,"Tagline":null},"PublicatieDatum":"\/Date(1530920101000+0200)\/","PublicatieStatus":0,"SavedDate":null,"Soort-aanbod":"woonhuis","SoortAanbod":10,"StartOplevering":null,"TimeAgoText":null,"TransactieAfmeldDatum":null,"TransactieMakelaarId":null,"TransactieMakelaarNaam":null,"TypeProject":0,"URL":"http:\/\/www.funda.nl\/koop\/amsterdam\/huis-40750650-vegastraat-219\/","VerkoopStatus":"StatusBeschikbaar","WGS84_X":4.880594,"WGS84_Y":52.41404,"WoonOppervlakteTot":103,"Woonoppervlakte":103,"Woonplaats":"Amsterdam","ZoekType":[10]},{"AangebodenSindsTekst":"30 juni 2018","AanmeldDatum":"\/Date(1262300400000+0100)\/","AantalBeschikbaar":null,"AantalKamers":5,"AantalKavels":null,"Aanvaarding":"BeschikbaarPerDirect","Adres":"Tolkamerstraat 10","Afstand":0,"BronCode":"NVM","ChildrenObjects":[],"DatumAanvaarding":null,"DatumOndertekeningAkte":null,"Foto":"http:\/\/cloud.funda.nl\/valentina_media\/097\/237\/245_klein.jpg","FotoLarge":"http:\/\/cloud.funda.nl\/valentina_media\/097\/237\/245_groot.jpg","FotoLargest":"http:\/\/cloud.funda.nl\/valentina_media\/097\/237\/245_grotere.jpg","FotoMedium":"http:\/\/cloud.funda.nl\/valentina_media\/097\/237\/245_middel.jpg","FotoSecure":"http:\/\/cloud.funda.nl\/valentina_media\/097\/237\/245_klein.jpg","GewijzigdDatum":null,"GlobalId":4274923,"GroupByObjectType":"731c748a-ac25-41ac-9bfa-231b39b44c3b","Heeft360GradenFoto":true,"HeeftBrochure":true,"HeeftOpenhuizenTopper":false,"HeeftOverbruggingsgrarantie":false,"HeeftPlattegrond":true,"HeeftTophuis":false,"HeeftVeiling":false,"HeeftVideo":true,"HuurPrijsTot":null,"Huurprijs":null,"HuurprijsFormaat":null,"Id":"731c748a-ac25-41ac-9bfa-231b39b44c3b","InUnitsVanaf":null,"IndProjectObjectType":false,"IndTransactieMakelaarTonen":null,"IsSearchable":true,"IsVerhuurd":false,"IsVerkocht":false,"IsVerkochtOfVerhuurd":false,"Koopprijs":250000,"KoopprijsFormaat":"&lt;[KoopPrijs]&gt; &lt;{kosten koper|kort}&gt;","KoopprijsTot":250000,"MakelaarId":24001,"MakelaarNaam":"Admiraal makelaardij","MobileURL":"http:\/\/m.funda.nl\/obj.aspx?goi=4274923","Note":null,"OpenHuis":[],"Oppervlakte":0,"Perceeloppervlakte":111,"Postcode":"1107PD","Prijs":{"GeenExtraKosten":false,"HuurAbbreviation":"","Huurprijs":null,"HuurprijsOpAanvraag":"","HuurprijsTot":null,"KoopAbbreviation":"k.k.","Koopprijs":250000,"KoopprijsOpAanvraag":"","KoopprijsTot":250000,"OriginelePrijs":null,"VeilingText":""},"PrijsGeformatteerdHtml":"&lt;span class=\"price-wrapper\"&gt;&lt;span class=\"price\"&gt;&amp;euro;&amp;nbsp;250.000&lt;\/span&gt; &lt;abbr class=\"price-ext\"&gt;k.k.&lt;\/abbr&gt;&lt;\/span&gt;","PrijsGeformatteerdTextHuur":"&lt;span class=\"price-wrapper\"&gt;&lt;span class=\"price\"&gt;&amp;euro;&amp;nbsp;250.000&lt;\/span&gt; &lt;abbr class=\"price-ext\"&gt;k.k.&lt;\/abbr&gt;&lt;\/span&gt;","PrijsGeformatteerdTextKoop":"&lt;span class=\"price-wrapper\"&gt;&lt;span class=\"price\"&gt;&amp;euro;&amp;nbsp;250.000&lt;\/span&gt; &lt;abbr class=\"price-ext\"&gt;k.k.&lt;\/abbr&gt;&lt;\/span&gt;","Producten":["Video","Plattegrond","360-fotos","Brochure"],"Project":{"AantalKamersTotEnMet":null,"AantalKamersVan":null,"AantalKavels":null,"Adres":null,"FriendlyUrl":null,"GewijzigdDatum":null,"GlobalId":null,"HoofdFoto":"\/img\/thumbs\/thumb-geen-foto.gif","IndIpix":false,"IndPDF":false,"IndPlattegrond":false,"IndTop":false,"IndVideo":false,"InternalId":"00000000-0000-0000-0000-000000000000","MaxWoonoppervlakte":null,"MinWoonoppervlakte":null,"Naam":null,"Omschrijving":null,"OpenHuizen":[],"Plaats":null,"Prijs":null,"PrijsGeformatteerd":null,"PublicatieDatum":null,"Type":0,"Woningtypen":null},"ProjectNaam":null,"PromoLabel":{"HasPromotionLabel":false,"PromotionPhotos":[],"PromotionPhotosSecure":null,"PromotionType":0,"RibbonColor":0,"RibbonText":null,"Tagline":null},"PublicatieDatum":"\/Date(1530315305000+0200)\/","PublicatieStatus":0,"SavedDate":null,"Soort-aanbod":"woonhuis","SoortAanbod":10,"StartOplevering":null,"TimeAgoText":null,"TransactieAfmeldDatum":null,"TransactieMakelaarId":null,"TransactieMakelaarNaam":null,"TypeProject":0,"URL":"http:\/\/www.funda.nl\/koop\/amsterdam\/huis-40629386-tolkamerstraat-10\/","VerkoopStatus":"StatusBeschikbaar","WGS84_X":4.966858,"WGS84_Y":52.29308,"WoonOppervlakteTot":84,"Woonoppervlakte":84,"Woonplaats":"Amsterdam","ZoekType":[10]}],"Paging":{},"TotaalAantalObjecten":708}</value>
+  </data>
+  <data name="JsonResponseOK" xml:space="preserve">
+    <value>{"Raymond":0,"EmailNotConfirmed":false,"ValidationFailed":false,"ValidationReport":null,"Website":0,"Metadata":{"ObjectType":"Koopwoningen","Omschrijving":"Koopwoningen &gt; Amsterdam | Tuin","Titel":"Huizen te koop in Amsterdam"},"Objects":[{"AangebodenSindsTekst":"Vandaag","AanmeldDatum":"\/Date(1262300400000+0100)\/","AantalBeschikbaar":null,"AantalKamers":5,"AantalKavels":null,"Aanvaarding":"InOverleg","Adres":"Vegastraat 219","Afstand":0,"BronCode":"NVM","ChildrenObjects":[],"DatumAanvaarding":null,"DatumOndertekeningAkte":null,"Foto":"http:\/\/cloud.funda.nl\/valentina_media\/097\/655\/786_klein.jpg","FotoLarge":"http:\/\/cloud.funda.nl\/valentina_media\/097\/655\/786_groot.jpg","FotoLargest":"http:\/\/cloud.funda.nl\/valentina_media\/097\/655\/786_grotere.jpg","FotoMedium":"http:\/\/cloud.funda.nl\/valentina_media\/097\/655\/786_middel.jpg","FotoSecure":"http:\/\/cloud.funda.nl\/valentina_media\/097\/655\/786_klein.jpg","GewijzigdDatum":null,"GlobalId":4305297,"GroupByObjectType":"0a2bbf27-d21b-4e60-9985-4331321b9c06","Heeft360GradenFoto":true,"HeeftBrochure":false,"HeeftOpenhuizenTopper":false,"HeeftOverbruggingsgrarantie":false,"HeeftPlattegrond":true,"HeeftTophuis":false,"HeeftVeiling":false,"HeeftVideo":true,"HuurPrijsTot":null,"Huurprijs":null,"HuurprijsFormaat":null,"Id":"0a2bbf27-d21b-4e60-9985-4331321b9c06","InUnitsVanaf":null,"IndProjectObjectType":false,"IndTransactieMakelaarTonen":null,"IsSearchable":true,"IsVerhuurd":false,"IsVerkocht":false,"IsVerkochtOfVerhuurd":false,"Koopprijs":325000,"KoopprijsFormaat":"&lt;[KoopPrijs]&gt; &lt;{kosten koper|kort}&gt;","KoopprijsTot":325000,"MakelaarId":17358,"MakelaarNaam":"11 Makelaars","MobileURL":"http:\/\/m.funda.nl\/obj.aspx?goi=4305297","Note":null,"OpenHuis":[],"Oppervlakte":0,"Perceeloppervlakte":141,"Postcode":"1033HT","Prijs":{"GeenExtraKosten":false,"HuurAbbreviation":"","Huurprijs":null,"HuurprijsOpAanvraag":"","HuurprijsTot":null,"KoopAbbreviation":"k.k.","Koopprijs":325000,"KoopprijsOpAanvraag":"","KoopprijsTot":325000,"OriginelePrijs":null,"VeilingText":""},"PrijsGeformatteerdHtml":"&lt;span class=\"price-wrapper\"&gt;&lt;span class=\"price\"&gt;&amp;euro;&amp;nbsp;325.000&lt;\/span&gt; &lt;abbr class=\"price-ext\"&gt;k.k.&lt;\/abbr&gt;&lt;\/span&gt;","PrijsGeformatteerdTextHuur":"&lt;span class=\"price-wrapper\"&gt;&lt;span class=\"price\"&gt;&amp;euro;&amp;nbsp;325.000&lt;\/span&gt; &lt;abbr class=\"price-ext\"&gt;k.k.&lt;\/abbr&gt;&lt;\/span&gt;","PrijsGeformatteerdTextKoop":"&lt;span class=\"price-wrapper\"&gt;&lt;span class=\"price\"&gt;&amp;euro;&amp;nbsp;325.000&lt;\/span&gt; &lt;abbr class=\"price-ext\"&gt;k.k.&lt;\/abbr&gt;&lt;\/span&gt;","Producten":["Video","Plattegrond","360-fotos"],"Project":{"AantalKamersTotEnMet":null,"AantalKamersVan":null,"AantalKavels":null,"Adres":null,"FriendlyUrl":null,"GewijzigdDatum":null,"GlobalId":null,"HoofdFoto":"\/img\/thumbs\/thumb-geen-foto.gif","IndIpix":false,"IndPDF":false,"IndPlattegrond":false,"IndTop":false,"IndVideo":false,"InternalId":"00000000-0000-0000-0000-000000000000","MaxWoonoppervlakte":null,"MinWoonoppervlakte":null,"Naam":null,"Omschrijving":null,"OpenHuizen":[],"Plaats":null,"Prijs":null,"PrijsGeformatteerd":null,"PublicatieDatum":null,"Type":0,"Woningtypen":null},"ProjectNaam":null,"PromoLabel":{"HasPromotionLabel":false,"PromotionPhotos":[],"PromotionPhotosSecure":null,"PromotionType":0,"RibbonColor":0,"RibbonText":null,"Tagline":null},"PublicatieDatum":"\/Date(1530920101000+0200)\/","PublicatieStatus":0,"SavedDate":null,"Soort-aanbod":"woonhuis","SoortAanbod":10,"StartOplevering":null,"TimeAgoText":null,"TransactieAfmeldDatum":null,"TransactieMakelaarId":null,"TransactieMakelaarNaam":null,"TypeProject":0,"URL":"http:\/\/www.funda.nl\/koop\/amsterdam\/huis-40750650-vegastraat-219\/","VerkoopStatus":"StatusBeschikbaar","WGS84_X":4.880594,"WGS84_Y":52.41404,"WoonOppervlakteTot":103,"Woonoppervlakte":103,"Woonplaats":"Amsterdam","ZoekType":[10]},{"AangebodenSindsTekst":"30 juni 2018","AanmeldDatum":"\/Date(1262300400000+0100)\/","AantalBeschikbaar":null,"AantalKamers":5,"AantalKavels":null,"Aanvaarding":"BeschikbaarPerDirect","Adres":"Tolkamerstraat 10","Afstand":0,"BronCode":"NVM","ChildrenObjects":[],"DatumAanvaarding":null,"DatumOndertekeningAkte":null,"Foto":"http:\/\/cloud.funda.nl\/valentina_media\/097\/237\/245_klein.jpg","FotoLarge":"http:\/\/cloud.funda.nl\/valentina_media\/097\/237\/245_groot.jpg","FotoLargest":"http:\/\/cloud.funda.nl\/valentina_media\/097\/237\/245_grotere.jpg","FotoMedium":"http:\/\/cloud.funda.nl\/valentina_media\/097\/237\/245_middel.jpg","FotoSecure":"http:\/\/cloud.funda.nl\/valentina_media\/097\/237\/245_klein.jpg","GewijzigdDatum":null,"GlobalId":4274923,"GroupByObjectType":"731c748a-ac25-41ac-9bfa-231b39b44c3b","Heeft360GradenFoto":true,"HeeftBrochure":true,"HeeftOpenhuizenTopper":false,"HeeftOverbruggingsgrarantie":false,"HeeftPlattegrond":true,"HeeftTophuis":false,"HeeftVeiling":false,"HeeftVideo":true,"HuurPrijsTot":null,"Huurprijs":null,"HuurprijsFormaat":null,"Id":"731c748a-ac25-41ac-9bfa-231b39b44c3b","InUnitsVanaf":null,"IndProjectObjectType":false,"IndTransactieMakelaarTonen":null,"IsSearchable":true,"IsVerhuurd":false,"IsVerkocht":false,"IsVerkochtOfVerhuurd":false,"Koopprijs":250000,"KoopprijsFormaat":"&lt;[KoopPrijs]&gt; &lt;{kosten koper|kort}&gt;","KoopprijsTot":250000,"MakelaarId":24001,"MakelaarNaam":"Admiraal makelaardij","MobileURL":"http:\/\/m.funda.nl\/obj.aspx?goi=4274923","Note":null,"OpenHuis":[],"Oppervlakte":0,"Perceeloppervlakte":111,"Postcode":"1107PD","Prijs":{"GeenExtraKosten":false,"HuurAbbreviation":"","Huurprijs":null,"HuurprijsOpAanvraag":"","HuurprijsTot":null,"KoopAbbreviation":"k.k.","Koopprijs":250000,"KoopprijsOpAanvraag":"","KoopprijsTot":250000,"OriginelePrijs":null,"VeilingText":""},"PrijsGeformatteerdHtml":"&lt;span class=\"price-wrapper\"&gt;&lt;span class=\"price\"&gt;&amp;euro;&amp;nbsp;250.000&lt;\/span&gt; &lt;abbr class=\"price-ext\"&gt;k.k.&lt;\/abbr&gt;&lt;\/span&gt;","PrijsGeformatteerdTextHuur":"&lt;span class=\"price-wrapper\"&gt;&lt;span class=\"price\"&gt;&amp;euro;&amp;nbsp;250.000&lt;\/span&gt; &lt;abbr class=\"price-ext\"&gt;k.k.&lt;\/abbr&gt;&lt;\/span&gt;","PrijsGeformatteerdTextKoop":"&lt;span class=\"price-wrapper\"&gt;&lt;span class=\"price\"&gt;&amp;euro;&amp;nbsp;250.000&lt;\/span&gt; &lt;abbr class=\"price-ext\"&gt;k.k.&lt;\/abbr&gt;&lt;\/span&gt;","Producten":["Video","Plattegrond","360-fotos","Brochure"],"Project":{"AantalKamersTotEnMet":null,"AantalKamersVan":null,"AantalKavels":null,"Adres":null,"FriendlyUrl":null,"GewijzigdDatum":null,"GlobalId":null,"HoofdFoto":"\/img\/thumbs\/thumb-geen-foto.gif","IndIpix":false,"IndPDF":false,"IndPlattegrond":false,"IndTop":false,"IndVideo":false,"InternalId":"00000000-0000-0000-0000-000000000000","MaxWoonoppervlakte":null,"MinWoonoppervlakte":null,"Naam":null,"Omschrijving":null,"OpenHuizen":[],"Plaats":null,"Prijs":null,"PrijsGeformatteerd":null,"PublicatieDatum":null,"Type":0,"Woningtypen":null},"ProjectNaam":null,"PromoLabel":{"HasPromotionLabel":false,"PromotionPhotos":[],"PromotionPhotosSecure":null,"PromotionType":0,"RibbonColor":0,"RibbonText":null,"Tagline":null},"PublicatieDatum":"\/Date(1530315305000+0200)\/","PublicatieStatus":0,"SavedDate":null,"Soort-aanbod":"woonhuis","SoortAanbod":10,"StartOplevering":null,"TimeAgoText":null,"TransactieAfmeldDatum":null,"TransactieMakelaarId":null,"TransactieMakelaarNaam":null,"TypeProject":0,"URL":"http:\/\/www.funda.nl\/koop\/amsterdam\/huis-40629386-tolkamerstraat-10\/","VerkoopStatus":"StatusBeschikbaar","WGS84_X":4.966858,"WGS84_Y":52.29308,"WoonOppervlakteTot":84,"Woonoppervlakte":84,"Woonplaats":"Amsterdam","ZoekType":[10]}],"Paging":{"AantalPaginas":354,"HuidigePagina":1,"VolgendeUrl":"\/~\/koop\/amsterdam\/tuin\/p2\/","VorigeUrl":null},"TotaalAantalObjecten":708}</value>
+  </data>
+</root>
